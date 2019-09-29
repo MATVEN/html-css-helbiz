@@ -14,3 +14,30 @@
   display: table;
   clear: both;
 }
+
+/* header */
+header{
+  width: auto;
+  height: 500px;
+}
+
+.navbar{
+  height: 75px;
+  background-color: black;
+}
+
+.screen{
+  height: auto;
+}
+/* header end */
+
+/* main */
+main{
+  width: auto;
+  height: 2200px;
+}
+
+/* section1 */
+.section1{
+
+}
