@@ -6,6 +6,7 @@
 
 .container{
   max-width: 1170px;
+  height: 100%;
   margin: 0 auto;;
 }
 
@@ -27,7 +28,8 @@ header{
 }
 
 .screen{
-  height: auto;
+  height: 425px;
+  background-color: orange;
 }
 /* header end */
 
@@ -41,4 +43,35 @@ main{
 .section1{
   height: 600px;
   background-color: red;
+}
+
+/* section2 */
+.section2{
+  height: 600px;
+  background-color: green;
+}
+
+/* section3 */
+.section3{
+  height: 1000px;
+  background-color: yellow;
+}
+
+/* footer */
+footer{
+  width: auto;
+  height: 1000px;
+}
+
+/* social */
+.social{
+  height: 400px;
+  background-color: grey;
+}
+
+/* contact */
+.contact{
+  height: 600px;
+  border-color: brown;
+  border: 2px solid black;
 }
