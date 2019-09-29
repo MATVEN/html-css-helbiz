@@ -39,5 +39,6 @@ main{
 
 /* section1 */
 .section1{
-
+  height: 600px;
+  background-color: red;
 }
