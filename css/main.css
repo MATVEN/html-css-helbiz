@@ -90,9 +90,23 @@ main{
 /* section1 */
 .section1{
   height: 600px;
-  background-color: red;
+  background-color: white;
 }
 
+.section1 img{
+  width: 175px;
+  height: 350px;
+  margin-left: 10%;
+  margin-top: 25%;
+}
+
+.section1 h2{
+  text-align: center;
+}
+
+.section1 a{
+
+}
 /* section2 */
 .section2{
   height: 600px;
