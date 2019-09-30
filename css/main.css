@@ -7,7 +7,7 @@
 .container{
   max-width: 1170px;
   height: 100%;
-  margin: 0 auto;;
+  margin: 0 auto;
 }
 
 .container::after{
@@ -22,14 +22,62 @@ header{
   height: 500px;
 }
 
+/* navbar */
 .navbar{
   height: 75px;
   background-color: black;
 }
 
+.navbar img{
+  padding-left: 25%;
+  padding-top: 5%;
+}
+
+.navbar   ul{
+  list-style-type: none;
+}
+
+.navbar li{
+  display: inline-block;
+  font-size: 10px;
+  color: white;
+  padding: 8px;
+  padding-top: 7%;
+}
+/* sreen */
 .screen{
   height: 425px;
-  background-color: orange;
+  background-image: url("../img/helbiz1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.screen h1{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 12.5%;
+}
+
+.screen p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.screen img{
+  max-width: 100%;
+  height: auto;
+}
+
+#apple{
+  float: right;
+  margin-right: 5px;
+}
+
+#google{
+  float: left;
+  margin-left: 5px;
 }
 /* header end */
 
